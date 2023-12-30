@@ -34,8 +34,8 @@ app.Run();
 
 void UpdataDatabase()
 {
-  var connection = RepositoryExtension.GetConnection(builder.Configuration);
-  var databaseName = RepositoryExtension.GetDatabaseName(builder.Configuration);
+  var connection = ConfigurationExtension.GetConnection(builder.Configuration);
+  var databaseName = ConfigurationExtension.GetDatabaseName(builder.Configuration);
   Database.CreateConnection(connection, databaseName);
 
   app.MigrateDatabase();

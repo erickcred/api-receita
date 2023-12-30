@@ -2,7 +2,7 @@
 
 namespace LivroDeReceita.Domain.Extension;
 
-public static class RepositoryExtension
+public static class ConfigurationExtension
 {
   public static string GetDatabaseName(this IConfiguration configuration)
   {
