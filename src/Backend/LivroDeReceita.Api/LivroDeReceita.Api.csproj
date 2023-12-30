@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\LivroDeReceita.Comunicacao\LivroDeReceita.Comunicacao.csproj" />
     <ProjectReference Include="..\..\Shared\LivroDeReceita.Exceptions\LivroDeReceita.Exceptions.csproj" />
+    <ProjectReference Include="..\LivroDeReceita.Infrastructure\LivroDeReceita.Infrastructure.csproj" />
     <ProjectReference Include="..\LivroReceita.Application\LivroReceita.Application.csproj" />
   </ItemGroup>
 
