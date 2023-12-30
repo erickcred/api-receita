@@ -16,8 +16,7 @@ public class UsuarioRepository : IUsuarioRepository
 
   public async Task Add(Usuario usuario)
   {
-    if (usuario != null)
-      await _context.Usuarios.AddAsync(usuario);
+    await _context.Usuarios.AddAsync(usuario);
   }
 
   public async Task<bool> UserEmailExists(string email)
